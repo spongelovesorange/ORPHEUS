@@ -1,0 +1,23 @@
+test_dataset_types: 
+  # - pdbbind_conf
+  # - dockgen_full_conf
+  # - astex_conf
+  # - posebusters_conf
+  - any_conf
+
+use_all_chains: true
+
+cache_path: /data/Matcha-main/orpheus_physics/cache
+data_folder: /data/Matcha-main/orpheus_physics/data
+checkpoints_folder: /data/Matcha-main/orpheus_physics/checkpoints
+inference_results_folder: /data/Matcha-main/orpheus_physics/inference_results
+
+pdbbind_data_dir: /data/Matcha-main/orpheus_physics/data/pdbbind # Placeholder
+dockgen_data_dir: /data/Matcha-main/orpheus_physics/data/dockgen # Placeholder
+posebusters_data_dir: /data/Matcha-main/orpheus_physics/data/posebusters # Placeholder
+astex_data_dir: /data/Matcha-main/orpheus_physics/data/astex # Placeholder
+any_data_dir: /data/Matcha-main/orpheus_physics/data/my_dataset
+
+llm_emb_dim: 480 # Reverted to 480 for esm2_t12_35M_UR50D
+pdbbind_split_test: data/pdbbind_test.txt
+posebusters_split_test: data/posebusters_v2.txt

@@ -1,0 +1,1 @@
+{"docking": [{"model_path": "pipeline/stage1/", "dataset_kwargs": {}}, {"model_path": "pipeline/stage2/", "dataset_kwargs": {}}, {"model_path": "pipeline/stage3/", "dataset_kwargs": {"use_predicted_tr_only": false}}], "scoring": {"model_path": "pipeline/scoring/", "dataset_kwargs": {}}}
