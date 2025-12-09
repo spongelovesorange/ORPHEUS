@@ -1,0 +1,36 @@
+# Ignore large archives and checkpoints
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.npz
+*.pdb
+*.bin
+
+# Common large directories
+data/
+pretrained/
+cache/
+checkpoints/
+checkpoints_*/
+inference_results/
+logs/
+__pycache__/
+.ipynb_checkpoints/
+
+# Python specifics
+*.pyc
+env/
+venv/
+ENV/
+
+# Ignore top-level large files
+P-L.tar.gz
+VQ_VAE_Checkpoint.zip
+
+# Jupyter
+.ipynb_checkpoints/
