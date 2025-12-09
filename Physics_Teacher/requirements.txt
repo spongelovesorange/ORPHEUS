@@ -1,0 +1,20 @@
+tqdm
+numpy
+scipy
+torch
+deli
+transformers
+wandb
+pyyaml
+argparse
+biopython
+accelerate
+timm
+rdkit
+tensorboard
+omegaconf
+spyrmsd
+prody
+# posebusters
+# pymol-open-source
+# numpy==1.23.5
